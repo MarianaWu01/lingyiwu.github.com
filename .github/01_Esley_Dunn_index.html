@@ -9,26 +9,95 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            text-align: center;
             background-color: #f4f4f4;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+        h1 {
+            color: #333;
+            margin-top: 20px;
         }
-        main {
-            padding: 20px;
+        .linkedin-button {
+            text-decoration: none;
+            color: white;
+            background-color: #ff0050;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+        }
+        .linkedin-button:hover {
+            background-color: #cc0040;
+        }
+        .youtube-button {
+            text-decoration: none;
+            color: white;
+            background-color: #ff0050;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+        }
+        .youtube-button:hover {
+            background-color: #0056b3;
+        }
+        .photo-container {
+            margin: 20px 0;
+        }
+        .photo-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .iframe-container {
+            margin: 20px 0;
+            max-width: 100%;
+            height: 600px; /* Adjust height as needed */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
             text-align: center;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+            background-color: #007bff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+        }
+        footer a:hover {
+            background-color: #0056b3;
+        }
+        .follow-us {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-    </header>
-    <main>
-        <p>Hello! This is my personal website hosted on GitHub Pages.</p>
-    </main>
+    <h1>Welcome to Lingyi's Personal Website!</h1>
+    <p>Hello, world!</p>
+    <div class="photo-container">
+        <img src="证件照.jpg" alt="Lingyi's Photo">
+    </div>
+    <div class="iframe-container">
+        <iframe src="https://m.uhomes.com/liveplayback/106107?xcode=000cc674fea9025c288c&share_id=261496&app_id=11&sharetag=moments&language=zh&invite_code=BWMHPFFnBjdUaAM6" allowfullscreen></iframe>
+    </div>
+    <footer>
+        <div class="follow-us">
+            <a href="https://www.linkedin.com/in/lingyi-wu-a42097227/" class="linkedin-button" target="_blank">Follow me on LinkedIn</a>
+            <a href="https://www.youtube.com/watch?v=Jz9z0rK_YU4" class="youtube-button" target="_blank">Watch on YouTube</a>
+        </div>
+        <p>&copy; 2024 Lingyi Wu's qualifications. All rights reserved.</p>
+    </footer>
 </body>
 </html>
